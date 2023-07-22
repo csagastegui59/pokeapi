@@ -8,6 +8,17 @@ export interface SinglePokemon {
   id: string;
   order: string;
   sprites: Sprites;
+  types: SlotType[];
+}
+
+interface SlotType {
+  slot: number;
+  type: Type
+}
+
+interface Type {
+  name: string;
+  url: string;
 }
 
 interface Sprites {
