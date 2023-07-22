@@ -1,0 +1,18 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+}
+
+body {
+  background: hsla(49, 97%, 70%, 1);
+
+background: radial-gradient(circle, hsla(49, 97%, 70%, 1) 30%, hsla(7, 76%, 47%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(49, 97%, 70%, 1) 30%, hsla(7, 76%, 47%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(49, 97%, 70%, 1) 30%, hsla(7, 76%, 47%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FDE269", endColorstr="#D3321D", GradientType=1 );
+}
